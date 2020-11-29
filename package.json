@@ -1,0 +1,35 @@
+{
+  "name": "no-resolve",
+  "version": "1.0.0",
+  "description": "Assert that a given promise does not resolve before a timeout promise.",
+  "type": "module",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "ts-standard",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chocolateloverraj/no-resolve.git"
+  },
+  "keywords": [],
+  "author": "Rajas Paranjpe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chocolateloverraj/no-resolve/issues"
+  },
+  "homepage": "https://github.com/chocolateloverraj/no-resolve#readme",
+  "devDependencies": {
+    "@types/mocha": "^8.0.4",
+    "@types/node": "^14.14.10",
+    "mocha": "^8.2.1",
+    "ts-standard": "^9.0.0",
+    "typescript": "^4.1.2"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {}
+}
