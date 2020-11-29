@@ -16,7 +16,7 @@ it('resolves', async () => {
 
 it('promise rejects', async () => {
   const testPromise = Promise.reject(new Error())
-  const timeoutPromise = Promise.resolve().then(() => Promise.resolve())
+  const timeoutPromise = Promise.resolve().then(async () => await Promise.resolve())
   await rejects(noResolve(testPromise, timeoutPromise))
 })
 
